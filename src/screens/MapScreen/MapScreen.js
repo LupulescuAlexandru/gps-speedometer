@@ -62,7 +62,6 @@ const MainScreen = ({navigation}) => {
     return (<>
         {locationObj && (<View style={{flex: 1}}>
             <MapView
-                zoomEnabled={true}
                 style={styles.map}
                 region={{
                     latitude: locationObj.latitude,
